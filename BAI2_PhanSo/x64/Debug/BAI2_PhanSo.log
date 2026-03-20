@@ -1,0 +1,4 @@
+﻿  phanso.cpp
+C:\STUDY\GITHUB\DSLK\BAI2_PhanSo\phanso.cpp(202,11): warning C4101: 'x': unreferenced local variable
+C:\STUDY\GITHUB\DSLK\BAI2_PhanSo\phanso.cpp(258,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  BAI2_PhanSo.vcxproj -> C:\STUDY\GITHUB\DSLK\x64\Debug\BAI2_PhanSo.exe
