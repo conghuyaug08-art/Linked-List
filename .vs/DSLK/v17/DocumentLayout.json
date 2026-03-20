@@ -1,54 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\STUDY\\GITHUB\\DSLK\\DSLK\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9B5649BF-E988-4405-A27E-87F767A7E526}|DSLK.vcxproj|C:\\STUDY\\GITHUB\\DSLK\\DSLK\\demo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9B5649BF-E988-4405-A27E-87F767A7E526}|DSLK.vcxproj|solutionrelative:demo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B5649BF-E988-4405-A27E-87F767A7E526}|DSLK.vcxproj|C:\\STUDY\\GITHUB\\DSLK\\DSLK\\data.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{9B5649BF-E988-4405-A27E-87F767A7E526}|DSLK.vcxproj|solutionrelative:data.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\STUDY\\GITHUB\\DSLK\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "data.txt",
-              "DocumentMoniker": "C:\\STUDY\\GITHUB\\DSLK\\DSLK\\data.txt",
-              "RelativeDocumentMoniker": "data.txt",
-              "ToolTip": "C:\\STUDY\\GITHUB\\DSLK\\DSLK\\data.txt",
-              "RelativeToolTip": "data.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-03-19T14:44:39.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "demo.cpp",
-              "DocumentMoniker": "C:\\STUDY\\GITHUB\\DSLK\\DSLK\\demo.cpp",
-              "RelativeDocumentMoniker": "demo.cpp",
-              "ToolTip": "C:\\STUDY\\GITHUB\\DSLK\\DSLK\\demo.cpp",
-              "RelativeToolTip": "demo.cpp",
-              "ViewState": "AgIAAMgBAAAAAAAAAAAAAEYBAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-03-19T13:03:06.249Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

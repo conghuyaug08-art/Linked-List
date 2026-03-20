@@ -1,0 +1,4 @@
+﻿  demo.cpp
+C:\STUDY\GITHUB\DSLK\DSLK\demo.cpp(427,12): warning C4129: 'T': unrecognized character escape sequence
+C:\STUDY\GITHUB\DSLK\DSLK\demo.cpp(493,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  DSLK.vcxproj -> C:\STUDY\GITHUB\DSLK\DSLK\x64\Debug\1_Demo.exe
