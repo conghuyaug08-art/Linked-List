@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\STUDY\\GITHUB\\DSLK\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94DF510F-4CCB-42A4-978F-66A6E3E92F1C}|BAI2_PhanSo\\BAI2_PhanSo.vcxproj|C:\\STUDY\\GITHUB\\DSLK\\BAI2_PhanSo\\phanso.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{94DF510F-4CCB-42A4-978F-66A6E3E92F1C}|BAI2_PhanSo\\BAI2_PhanSo.vcxproj|solutionrelative:BAI2_PhanSo\\phanso.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{15A4CA74-B2A0-4919-B73F-C193EB5A3E4E}|Bai3\\Bai3.vcxproj|C:\\STUDY\\GITHUB\\DSLK\\Bai3\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15A4CA74-B2A0-4919-B73F-C193EB5A3E4E}|Bai3\\Bai3.vcxproj|solutionrelative:Bai3\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B5649BF-E988-4405-A27E-87F767A7E526}|BAI1_Demo\\DSLK.vcxproj|C:\\STUDY\\GITHUB\\DSLK\\BAI1_Demo\\demo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9B5649BF-E988-4405-A27E-87F767A7E526}|BAI1_Demo\\DSLK.vcxproj|solutionrelative:BAI1_Demo\\demo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94DF510F-4CCB-42A4-978F-66A6E3E92F1C}|BAI2_PhanSo\\BAI2_PhanSo.vcxproj|C:\\STUDY\\GITHUB\\DSLK\\BAI2_PhanSo\\phanso.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{94DF510F-4CCB-42A4-978F-66A6E3E92F1C}|BAI2_PhanSo\\BAI2_PhanSo.vcxproj|solutionrelative:BAI2_PhanSo\\phanso.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B5649BF-E988-4405-A27E-87F767A7E526}|BAI1_Demo\\DSLK.vcxproj|C:\\STUDY\\GITHUB\\DSLK\\BAI1_Demo\\data.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -27,19 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\STUDY\\GITHUB\\DSLK\\Bai3\\Source.cpp",
+              "RelativeDocumentMoniker": "Bai3\\Source.cpp",
+              "ToolTip": "C:\\STUDY\\GITHUB\\DSLK\\Bai3\\Source.cpp*",
+              "RelativeToolTip": "Bai3\\Source.cpp*",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAywE4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-22T06:36:18.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "phanso.cpp",
               "DocumentMoniker": "C:\\STUDY\\GITHUB\\DSLK\\BAI2_PhanSo\\phanso.cpp",
               "RelativeDocumentMoniker": "BAI2_PhanSo\\phanso.cpp",
               "ToolTip": "C:\\STUDY\\GITHUB\\DSLK\\BAI2_PhanSo\\phanso.cpp",
               "RelativeToolTip": "BAI2_PhanSo\\phanso.cpp",
-              "ViewState": "AgIAAOUAAAAAAAAAAAA5wO8AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAIUBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-20T10:52:39.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "data.txt",
               "DocumentMoniker": "C:\\STUDY\\GITHUB\\DSLK\\BAI1_Demo\\data.txt",
               "RelativeDocumentMoniker": "BAI1_Demo\\data.txt",
@@ -47,8 +64,7 @@
               "RelativeToolTip": "BAI1_Demo\\data.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-03-20T10:52:32.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-20T10:52:32.86Z"
             },
             {
               "$type": "Document",
@@ -58,7 +74,7 @@
               "RelativeDocumentMoniker": "BAI1_Demo\\demo.cpp",
               "ToolTip": "C:\\STUDY\\GITHUB\\DSLK\\BAI1_Demo\\demo.cpp",
               "RelativeToolTip": "BAI1_Demo\\demo.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAywAkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-20T10:52:26.191Z",
               "EditorCaption": ""

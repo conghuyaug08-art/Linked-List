@@ -8,12 +8,20 @@
 
 void menu() {
 	printf("\n");
-	printf("\n========================================");
+	printf("\n=================================================");
 	printf("\n0. Exit");
 	printf("\n1. Nhap phan so thu cong");
 	printf("\n2. Tao phan so tu dong");
 	printf("\n3. Nhap phan so va rut gon");
 	printf("\n4. So sanh 2 phan so");
+	printf("\n5. Tinh tong hai phan so");
+	printf("\n6. Tinh tich hai phan so");
+	printf("\n7. Tim min max phan so trong danh sach");
+	printf("\n8. Tang moi phan so trong danh sach len 1 don vi");
+	printf("\n9. Xuat ra cac phan so lon hon 1");
+	printf("\n10. Tim kiem 1 node trong danh sach");
+	printf("\n11. Sap xep danh sach tang dan");
+	printf("\n=================================================");
 }
 struct PhanSo {
 	int Tuso;
@@ -184,8 +192,8 @@ void createSList_Random(SList& sl) {
 	}
 }
 int soSanhPhanSo(PhanSo ps1, PhanSo ps2) {
-	int kq = (ps1.Tuso * ps2.Mauso) - (ps2.Mauso * ps1.Mauso);
-	if (kq > 1) {
+	int kq = (ps1.Tuso * ps2.Mauso) - (ps2.Tuso * ps1.Mauso);
+	if (kq > 0) {
 		return 1;
 	}
 	else if (kq == 0) {
@@ -193,6 +201,85 @@ int soSanhPhanSo(PhanSo ps1, PhanSo ps2) {
 	}
 	else {
 		return -1;
+	}
+}
+
+void tinhTongPhanSo(SList sl) {
+	PhanSo tong;
+	tong.Tuso = 0;
+	tong.Mauso = 1;
+	SNode* p = sl.Head;
+	while (p != NULL) {
+		tong.Tuso = tong.Tuso * p->Info.Mauso + tong.Mauso * p->Info.Tuso;
+		tong.Mauso = tong.Mauso * p->Info.Mauso;
+		rutGonPhanSo(tong);
+		p = p->Next;
+	}
+	printf("\nTong cac phan so trong danh sach la: %d/%d", tong.Tuso, tong.Mauso);
+}
+void tinhTichPhanSo(SList sl) {
+	PhanSo tich;
+	tich.Tuso = 1;
+	tich.Mauso = 1;
+	SNode* p = sl.Head;
+	while (p != NULL) {
+		tich.Tuso = tich.Tuso * p->Info.Tuso;
+		tich.Mauso = tich.Mauso * p->Info.Mauso;
+		rutGonPhanSo(tich);
+		p = p->Next;
+	}
+	printf("\nTich cac phan so trong danh sach la: %d/%d", tich.Tuso, tich.Mauso);
+}
+
+void min_maxPhanSo(SList sl) {
+	ItemType min, max;
+	min = max = sl.Head->Info;
+	for (SNode* p = sl.Head; p != NULL; p = p->Next) {
+		if (soSanhPhanSo(min, p->Info) == 1) {
+			min = p->Info;
+		}
+		if (soSanhPhanSo(max, p->Info) == -1) {
+			max = p->Info;
+		}
+	}
+	printf("\nSo lon nhat la: %d/%d", max.Tuso, max.Mauso);
+	printf("\nSo nho nhat la: %d/%d", min.Tuso, min.Mauso);
+}
+ 
+void tang1DonVi(SList sl) {
+	for (SNode* p = sl.Head; p != NULL; p = p->Next) {
+		p->Info.Tuso = p->Info.Tuso + p->Info.Mauso;
+	}
+}
+
+void xuatLonHon1(SList sl) {
+	for (SNode* p = sl.Head; p != NULL; p = p->Next) {
+		if (p->Info.Tuso > p->Info.Mauso) {
+			printf("%d/%d", p->Info.Tuso, p->Info.Mauso);
+		}
+	}
+}
+
+SNode* findSNode(SList sl, ItemType x) {
+	for (SNode* p = sl.Head; p != NULL; p = p->Next) {
+		if (soSanhPhanSo(p->Info, x) == 0) {
+			return p;
+		}
+	}
+	return NULL;
+}
+void swap(ItemType& x, ItemType& y) {
+	ItemType tmp = x;
+	x = y;
+	y = tmp;
+}
+void sapXepTangDan(SList sl) {
+	for (SNode* p = sl.Head; p != NULL; p = p->Next) {
+		for (SNode* q = p->Next; q != NULL; q = q->Next) {
+			if (soSanhPhanSo(p->Info, q->Info) == 1) {
+				swap(p->Info, q->Info);
+			}
+		}
 	}
 }
 void process() {
@@ -250,11 +337,58 @@ void process() {
 				else {
 					printf("\nKet qua: Phan so thu nhat be hon phan so thu hai");
 				}
+				break;
+			}
+			case 5:
+			{
+				tinhTongPhanSo(sl);
+				break;
+			}
+			case 6:
+			{
+				tinhTichPhanSo(sl);
+				break;
+			}
+			case 7:
+			{
+				min_maxPhanSo(sl);
+				break;
+			}
+			case 8:
+			{
+				tang1DonVi(sl);
+				showSList(sl);
+				break;
+			}
+			case 9:
+			{
+				xuatLonHon1(sl);
+				break;
+			}
+			case 10:
+			{
+				printf("\nNhap vao phan so can tim kiem");
+				nhapPhanSo(ps);
+				SNode* p = findSNode(sl, ps);
+				if (p == NULL) {
+					printf("\nKhong tim thay node co gia tri tuong ung");
+				}
+				else {
+					printf("\nTim thay node");
+				}
+				break;
+			}
+			case 11:
+			{
+				sapXepTangDan(sl);
+				showSList(sl);
+				break;
 			}
 
 		}
 	} while (chon != 0);
 }
-void main() {
+int main() {
 	process();
+	return 1;
 }
