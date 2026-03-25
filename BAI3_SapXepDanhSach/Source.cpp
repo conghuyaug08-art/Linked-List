@@ -36,7 +36,7 @@ void showSList(SList sl) {
 			showSNode(p);
 			printf(" -> ");
 		}
-		printf("\nNULL");
+		printf("NULL");
 	}
 }
 void swap(ItemType& x, ItemType& y) {
@@ -98,17 +98,42 @@ void createSList(SList& sl) {
 		if (kq == 1) i++;
 	}
 }
+void noisl2sausl1(SList& sl1, SList& sl2, ItemType x) {
+	if (sl1.Head == NULL) {
+		return;
+	}
+	SNode* p = sl1.Head;
+	while (p != NULL && p->Info != x) {
+		p = p->Next;
+	}
+	if (p == NULL) {
+		printf("\nKhong co phan tu x");
+		return;
+	}
+	if (sl2.Head == NULL) {
+		printf("\nDanh sach 2 rong!");
+		return;
+	}
+	sl2.Tail->Next = p->Next;
+	p->Next = sl2.Head;
+	if (p == sl1.Tail) {
+		sl2.Tail = sl1.Tail;
+	}
+	printf("\nNoi thanh cong");
+}
 void menu() {
 	printf("\n");
 	printf("\n========================================");
 	printf("\n	*MENU*					  ");
+	printf("\n0. Exit");
 	printf("\n1. Nhap danh sach");
 	printf("\n2. Sap xep danh sach tang dan");
 	printf("\n3. Them phan tu sao cho danh sach tang");
+	printf("\n4. Noi danh sach sl2 vao sau phan tu co gia tri x trong danh sach sl1");
 }
 void process() {
 	ItemType x;
-	SList sl;
+	SList sl, sl2;
 	int chon;
 	initSList(sl);
 	do {
@@ -138,6 +163,17 @@ void process() {
 				SNode* p = createSNode(x);
 				addTail(sl, p);
 				sapSepTangDan(sl);
+				showSList(sl);
+				break;
+			}
+			case 4:
+			{
+				showSList(sl);
+				printf("\nNhap vao danh sach sl2: ");
+				createSList(sl2);
+				printf("\nNhap vao phan tu x de them sl2: ");
+				scanf("%d", &x);
+				noisl2sausl1(sl, sl2, x);
 				showSList(sl);
 				break;
 			}
