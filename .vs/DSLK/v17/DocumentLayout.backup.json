@@ -46,8 +46,7 @@
               "RelativeToolTip": "Bai4_BaiHat\\baihat.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-03-25T15:05:38.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-25T15:05:38.859Z"
             },
             {
               "$type": "Document",
@@ -57,7 +56,7 @@
               "RelativeDocumentMoniker": "Bai4_BaiHat\\baihat.cpp",
               "ToolTip": "C:\\STUDY\\GITHUB\\DSLK\\Bai4_BaiHat\\baihat.cpp",
               "RelativeToolTip": "Bai4_BaiHat\\baihat.cpp",
-              "ViewState": "AgIAAEQBAAAAAAAAAAAzwFEBAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAzwFEBAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-25T14:31:11.486Z",
               "EditorCaption": ""
@@ -72,8 +71,7 @@
               "RelativeToolTip": "BAI3_SapXepDanhSach\\Source.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-03-25T13:56:01.765Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-25T13:56:01.765Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "BAI2_PhanSo\\phanso.cpp",
               "ViewState": "AgIAAIEAAAAAAAAAAAAAAIUBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-03-20T10:52:39.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-20T10:52:39.258Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "BAI1_Demo\\data.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-03-20T10:52:32.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-20T10:52:32.86Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "BAI1_Demo\\demo.cpp",
               "ViewState": "AgIAAIcAAAAAAAAAAAAywAkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-03-20T10:52:26.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-20T10:52:26.191Z"
             }
           ]
         }
