@@ -11,7 +11,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bai3_SapXepDanhSach", "BAI3
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bai4_BaiHat", "Bai4_BaiHat\Bai4_BaiHat.vcxproj", "{63FC3A74-1BAB-4EFE-8F00-8ADD3381954C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bai5_SinhVien", "06.SinhVien\06.SinhVien.vcxproj", "{2FCC3D3E-9CAC-45A5-BB65-9C6BDCBCC5A8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bai5_SinhVien", "BAI5_SinhVien\06.SinhVien.vcxproj", "{2FCC3D3E-9CAC-45A5-BB65-9C6BDCBCC5A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

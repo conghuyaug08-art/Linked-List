@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\STUDY\\GITHUB\\DSLK\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2FCC3D3E-9CAC-45A5-BB65-9C6BDCBCC5A8}|06.SinhVien\\06.SinhVien.vcxproj|C:\\STUDY\\GITHUB\\DSLK\\06.SinhVien\\sinhvien.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2FCC3D3E-9CAC-45A5-BB65-9C6BDCBCC5A8}|06.SinhVien\\06.SinhVien.vcxproj|solutionrelative:06.SinhVien\\sinhvien.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{63FC3A74-1BAB-4EFE-8F00-8ADD3381954C}|Bai4_BaiHat\\Bai4_BaiHat.vcxproj|C:\\STUDY\\GITHUB\\DSLK\\Bai4_BaiHat\\baihat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{63FC3A74-1BAB-4EFE-8F00-8ADD3381954C}|Bai4_BaiHat\\Bai4_BaiHat.vcxproj|solutionrelative:Bai4_BaiHat\\baihat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "sinhvien.cpp",
+              "DocumentMoniker": "C:\\STUDY\\GITHUB\\DSLK\\06.SinhVien\\sinhvien.cpp",
+              "RelativeDocumentMoniker": "06.SinhVien\\sinhvien.cpp",
+              "ToolTip": "C:\\STUDY\\GITHUB\\DSLK\\06.SinhVien\\sinhvien.cpp",
+              "RelativeToolTip": "06.SinhVien\\sinhvien.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-29T13:54:29.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "baihat.txt",
               "DocumentMoniker": "C:\\STUDY\\GITHUB\\DSLK\\Bai4_BaiHat\\baihat.txt",
               "RelativeDocumentMoniker": "Bai4_BaiHat\\baihat.txt",
@@ -50,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "baihat.cpp",
               "DocumentMoniker": "C:\\STUDY\\GITHUB\\DSLK\\Bai4_BaiHat\\baihat.cpp",
               "RelativeDocumentMoniker": "Bai4_BaiHat\\baihat.cpp",
@@ -63,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\STUDY\\GITHUB\\DSLK\\BAI3_SapXepDanhSach\\Source.cpp",
               "RelativeDocumentMoniker": "BAI3_SapXepDanhSach\\Source.cpp",
@@ -75,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "phanso.cpp",
               "DocumentMoniker": "C:\\STUDY\\GITHUB\\DSLK\\BAI2_PhanSo\\phanso.cpp",
               "RelativeDocumentMoniker": "BAI2_PhanSo\\phanso.cpp",
@@ -87,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "data.txt",
               "DocumentMoniker": "C:\\STUDY\\GITHUB\\DSLK\\BAI1_Demo\\data.txt",
               "RelativeDocumentMoniker": "BAI1_Demo\\data.txt",
@@ -99,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "demo.cpp",
               "DocumentMoniker": "C:\\STUDY\\GITHUB\\DSLK\\BAI1_Demo\\demo.cpp",
               "RelativeDocumentMoniker": "BAI1_Demo\\demo.cpp",

@@ -1,25 +1,38 @@
 #include <stdio.h>
 #include <conio.h>
+#include <stdlib.h>
+#include <time.h>
 #include <string.h>
-struct HocPhan {
-	char maHP[21];
-	char tenHP[41];
-	int soTC;
-	float DTL, DCK;
-	float diemHP;
+struct DiemMH {
+	float DTL, DCK, DTB;
 };
-struct NodeHP {
-	HocPhan Info;
-	NodeHP* Next;
+typedef char KeyType;
+struct KetQua {
+	KeyType MaMH[11];
+	char TenMH[50];
+	int soTC;
+	DiemMH Diem;
+};
+struct SNodeKQ {
+	KetQua Info;
+	SNodeKQ* Next;
+};
+struct SlistKQ {
+	SNodeKQ* Head;
+	SNodeKQ* Tail;
 };
 struct SinhVien {
-	char hoDem[26];
-	char tenSV[9];
-	int namSinh;
-	NodeHP* dsHP;
-	float diemTB;
+	KeyType MaSV[11];
+	char HoDem[25];
+	char ten[8];
+	SlistKQ diemKQ;
 };
-struct NodeSV {
-	SinhVien Info;
-	NodeSV* Next;
+typedef SinhVien ItemType;
+struct SNode {
+	ItemType Info;
+	SNode* Next;
+};
+struct SList {
+	SNode* Head;
+	SNode* Tail;
 };
